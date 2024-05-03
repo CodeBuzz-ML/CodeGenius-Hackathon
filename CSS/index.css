@@ -60,11 +60,12 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
 }
 .card-content {
     padding-left: 20px;
+    line-height: 1.6;
 }
 .card-content h2 {
     margin-top: 0;
