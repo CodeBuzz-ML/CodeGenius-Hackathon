@@ -288,11 +288,11 @@ function appendResult() {
   for (var i = 0; i < questions.length; i++) {
     if (answers[i]) {
       divBody +=
-        "<td><img style='width:20px; margin:5px; align-self: center;' src='../GRAPHICS/check.png'></td>";
+        "<td><img style='width:20px; margin:5px; align-self: center;' src='./GRAPHICS/check.png'></td>";
       correctQuestions++;
     } else
       divBody +=
-        "<td><img style='width:20px; margin:5px;'  src='../GRAPHICS/cancel.png'></td>";
+        "<td><img style='width:20px; margin:5px;'  src='./GRAPHICS/cancel.png'></td>";
   }
 
   divBody += "</tbody></table>";
